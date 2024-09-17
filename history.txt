@@ -1,0 +1,143 @@
+    7  git clone ^[[200~https://github.com/hacksider/Deep-Live-Cam.git~
+    9  git clone ~https://github.com/hacksider/Deep-Live-Cam.git~
+   10  git clone https://github.com/hacksider/Deep-Live-Cam.git
+   11  git --version
+   12  git config --global user.name "Zach"
+   13  git config -- global user.email zachp123@byu.edu
+   14  git config --global uer.email zachp123@byu.edu
+   15  git config --global init.defaultBranch main
+   16  git --version
+   17  git status
+   20  git config --list
+   24  mkdir git-practice
+   25  cd git-practice
+   27  git innit
+   28  'git init
+   29  git init
+   32  cd git-practice
+   33  git init
+   39  mkdir git-practice-Zach-321
+   40  cd git-practice-Zach-321/
+   41  git init
+   56  cd git-practice-Zach-321/
+   60  git config --global color.ui auto
+   67  cd git-practice-Zach-321/
+   70  git status
+   71  git commit .
+   72  git add .
+   73  git status
+   74  git stage .
+   75  git status
+   76  git add file1.txt
+   77  git status
+   78  git add "file1.txt"
+   79  git status
+   80  git log
+   82  cd git-practice-Zach-321/
+   88  git add file3.txt
+   89  git status
+   90  git commit --m "added file3"
+   91  git status
+   92  git branch
+   93  git merge main
+   94  git merge your branch
+   95  git log
+   97  cd git-practice-Zach-321/
+   99  git log --onelines
+  100  git log -onelines
+  102  git status
+  103  git oush
+  104  git push
+  105  git status
+  106  git status
+  107  git add file1.txt
+  108  git status
+  109  git commit --m 'edited file1'
+  110  git log --oneline
+  111  git status
+  112  git restor file3.txt
+  113  git restore file3.txt
+  114  git status
+  115  git status
+  116  git add file1.txt
+  117  git status
+  118  git commit --m 'updated file1'
+  119  git log --oneline
+  120  git status
+  121  git add file2.txt
+  122  git commit --m 'updated file2'
+  123  git log --oneline
+  125  git status
+  126  git add 'Readme.md'
+  127  git commit --m 'added Readme file'
+  128  git log --oneline
+  130  git status
+  131  git add '.gitignore'
+  132  git commit --m 'updated .gitignore'
+  133  git status
+  134  git branch features
+  135  git branch
+  136  git checkout
+  137  git branch
+  138  git push
+  139  git checkout
+  140  git checkout features
+  142  git log --oneline
+  144  git add 'new_features.txt'
+  145  git commit --m 'add empty file'
+  146  git status
+  147  git status
+  148  git add .
+  149  git commit --m 'add text to new_features'
+  151  git branch
+  152  git checkout main
+  154  git add 'file1.txt'
+  155  git commit --m 'update file1'
+  156  git status
+  157  git merge features
+  159  cd git-practice-Zach-321/
+  161  git log --oneline
+  162  git branch
+  163  git merge
+  164  git merge features
+  165  git status
+  166  git commit --m 'merged 2 branches'
+  167  git log --oneline
+  168  git branch
+  169  git open file1.txt
+  170  git config --edit
+  172  cd git-practice-Zach-321/
+  175  git status
+  176  git add 'new_features.txt'
+  177  git commit --m 'no new features'
+  178  git checkout features
+  181  git add new_features.tt
+  182  git add new_features.txt
+  183  git commit --m 'add new text to new_features'
+  184  git checkout main
+  185  git merge
+  186  git merge features
+  187  git status
+  188  git add .
+  189  git commit --m 'fixed conflict in features'
+  190  git merge features
+  191  git log --oneline
+  192  git -d features
+  193  git branch -d features
+  194  git push
+  200  git innit
+  201  git init
+  203  git clone https://github.com/Zach-321/git-practice-willknisley
+  205  cd git-practice-willknisley/
+  207  git branch feature-Zach-321
+  208  git branch
+  209  git checkout feature-Zach-321 
+  212  git add fileZach.txt
+  213  git status
+  214  git commit --m 'added new file'
+  215  git push origin feature-Zach-321
+  216  git log
+  218  cd git-practice-Zach-321/
+  219  git pull
+  221  git log --oneline > gitlog.txt
+  222  history | grep git > history.txt

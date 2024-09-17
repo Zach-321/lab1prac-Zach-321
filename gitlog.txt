@@ -1,0 +1,18 @@
+28bccb0 Merge pull request #1 from willknisley/feature-willknisley
+bb2e3f3 add example.txt with text
+43548a0 fixed conflict in features
+7fab032 add new text to new_features
+117ab76 no new features
+a47ed1d merged 2 branches
+13470da update file1
+5184a2c add text to new_features
+1d8c2f5 add empty file
+1a367bd updated .gitignore
+895a11b added Readme file
+cbde2c1 updated file2
+d5e8fcf updated file1
+ede0275 added file3
+7f90274 update gitignore
+09586d6 add gitignore
+ffa6f27 add file2
+a5942af add file1
